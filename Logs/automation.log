@@ -1,0 +1,17 @@
+11:16:27.723 [main] INFO  org.testng.annotations.Test - ****** finished TC_049 Loan Amount Loan Charges Input Field ******
+11:16:27.905 [main] INFO  org.testng.annotations.Test - ****** Starting TC_050 Loan Tenure Calculator Link ******
+11:16:28.117 [main] INFO  org.testng.annotations.Test - ****** finished TC_048 Loan Tenure Calculator Link ******
+11:16:28.305 [main] INFO  org.testng.annotations.Test - ****** Starting TC_051 Loan Tenure Loan Amount Input Field ******
+11:16:28.341 [main] INFO  org.testng.annotations.Test - ****** finished TC_051 Loan Tenure Loan Amount Input Field ******
+11:16:28.636 [main] INFO  org.testng.annotations.Test - ****** Starting TC_052 Loan Tenure Loan Amount Input Field ******
+11:16:29.191 [main] INFO  org.testng.annotations.Test - ****** finished TC_052 Loan Tenure Loan Amount Input Field ******
+11:16:29.406 [main] INFO  org.testng.annotations.Test - ****** Starting TC_053 Loan Tenure EMI Input Field ******
+11:16:29.456 [main] INFO  org.testng.annotations.Test - ****** finished TC_053 Loan Tenure EMI Input Field ******
+11:16:29.665 [main] INFO  org.testng.annotations.Test - ****** Starting TC_054 Loan Tenure Interest Rate Input Field ******
+11:16:29.697 [main] INFO  org.testng.annotations.Test - ****** finished TC_054 Loan Tenure Interest Rate Input Field ******
+11:16:29.983 [main] INFO  org.testng.annotations.Test - ****** Starting TC_055 Loan Tenure Interest Rate Input Field ******
+11:16:30.385 [main] INFO  org.testng.annotations.Test - ****** finished TC_055 Loan Tenure Interest Rate Input Field ******
+11:16:30.572 [main] INFO  org.testng.annotations.Test - ****** Starting TC_056 Loan Tenure Loan Charges Input Field ******
+11:16:30.602 [main] INFO  org.testng.annotations.Test - ****** finished TC_056 Loan Tenure Loan Charges Input Field ******
+11:16:30.888 [main] INFO  org.testng.annotations.Test - ****** Starting TC_57 Loan Tenure Loan Charges Input Field ******
+11:16:31.357 [main] INFO  org.testng.annotations.Test - ****** finished TC_057 Loan Tenure Loan Charges Input Field ******

@@ -1,0 +1,1286 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="57" passed="57" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2024-02-15T09:22:05 IST" name="Suite" finished-at="2024-02-15T09:23:44 IST" duration-ms="99652">
+    <groups>
+      <group name="Master">
+        <method signature="CarLoanEMI.clickOnCarLoanLink()[pri:1, instance:TestCases.LoanTenureCalculatorUICheck@7ae0a9ec]" name="clickOnCarLoanLink" class="TestCases.CarLoanEMI"/>
+        <method signature="CarLoanEMI.setCarAmount(java.lang.String,java.lang.String,java.lang.String)[pri:2, instance:TestCases.LoanTenureCalculatorUICheck@7ae0a9ec]" name="setCarAmount" class="TestCases.CarLoanEMI"/>
+        <method signature="CarLoanEMI.setInterestRate(java.lang.String,java.lang.String,java.lang.String)[pri:3, instance:TestCases.LoanTenureCalculatorUICheck@7ae0a9ec]" name="setInterestRate" class="TestCases.CarLoanEMI"/>
+        <method signature="CarLoanEMI.setLoanTenure(java.lang.String,java.lang.String,java.lang.String)[pri:4, instance:TestCases.LoanTenureCalculatorUICheck@7ae0a9ec]" name="setLoanTenure" class="TestCases.CarLoanEMI"/>
+        <method signature="CarLoanEMI.clickOnyear()[pri:5, instance:TestCases.LoanTenureCalculatorUICheck@7ae0a9ec]" name="clickOnyear" class="TestCases.CarLoanEMI"/>
+        <method signature="CarLoanEMI.readData()[pri:6, instance:TestCases.LoanTenureCalculatorUICheck@7ae0a9ec]" name="readData" class="TestCases.CarLoanEMI"/>
+        <method signature="HomeLoanEMI.calculatorsDropDownValidation()[pri:7, instance:TestCases.LoanTenureCalculatorUICheck@7ae0a9ec]" name="calculatorsDropDownValidation" class="TestCases.HomeLoanEMI"/>
+        <method signature="HomeLoanEMI.homeLoanEmiCalculatorValidation()[pri:8, instance:TestCases.LoanTenureCalculatorUICheck@7ae0a9ec]" name="homeLoanEmiCalculatorValidation" class="TestCases.HomeLoanEMI"/>
+        <method signature="HomeLoanEMI.validateHomeValueInputfield(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:9, instance:TestCases.LoanTenureCalculatorUICheck@7ae0a9ec]" name="validateHomeValueInputfield" class="TestCases.HomeLoanEMI"/>
+        <method signature="HomeLoanEMI.validateDownPaymentInputFieldInPercentage(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:10, instance:TestCases.LoanTenureCalculatorUICheck@7ae0a9ec]" name="validateDownPaymentInputFieldInPercentage" class="TestCases.HomeLoanEMI"/>
+        <method signature="HomeLoanEMI.validateDownPaymentRupeesButton()[pri:11, instance:TestCases.LoanTenureCalculatorUICheck@7ae0a9ec]" name="validateDownPaymentRupeesButton" class="TestCases.HomeLoanEMI"/>
+        <method signature="HomeLoanEMI.validateLoanInsuranceInputField(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:12, instance:TestCases.LoanTenureCalculatorUICheck@7ae0a9ec]" name="validateLoanInsuranceInputField" class="TestCases.HomeLoanEMI"/>
+        <method signature="HomeLoanEMI.validateInterestRateInputField(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:13, instance:TestCases.LoanTenureCalculatorUICheck@7ae0a9ec]" name="validateInterestRateInputField" class="TestCases.HomeLoanEMI"/>
+        <method signature="HomeLoanEMI.validateLoanTenureInputField(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:14, instance:TestCases.LoanTenureCalculatorUICheck@7ae0a9ec]" name="validateLoanTenureInputField" class="TestCases.HomeLoanEMI"/>
+        <method signature="HomeLoanEMI.validateLoanTenureMonthsButton()[pri:15, instance:TestCases.LoanTenureCalculatorUICheck@7ae0a9ec]" name="validateLoanTenureMonthsButton" class="TestCases.HomeLoanEMI"/>
+        <method signature="HomeLoanEMI.validateLoanChargesInputField(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:16, instance:TestCases.LoanTenureCalculatorUICheck@7ae0a9ec]" name="validateLoanChargesInputField" class="TestCases.HomeLoanEMI"/>
+        <method signature="HomeLoanEMI.validateLoanChargesRupeesButtonElement()[pri:17, instance:TestCases.LoanTenureCalculatorUICheck@7ae0a9ec]" name="validateLoanChargesRupeesButtonElement" class="TestCases.HomeLoanEMI"/>
+        <method signature="HomeLoanEMI.validateLoanStartMonthAndYearField()[pri:18, instance:TestCases.LoanTenureCalculatorUICheck@7ae0a9ec]" name="validateLoanStartMonthAndYearField" class="TestCases.HomeLoanEMI"/>
+        <method signature="HomeLoanEMI.validateLoanStartMonthAndYearInputField(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:19, instance:TestCases.LoanTenureCalculatorUICheck@7ae0a9ec]" name="validateLoanStartMonthAndYearInputField" class="TestCases.HomeLoanEMI"/>
+        <method signature="HomeLoanEMI.validateOneTimeExpensesInputField(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:20, instance:TestCases.LoanTenureCalculatorUICheck@7ae0a9ec]" name="validateOneTimeExpensesInputField" class="TestCases.HomeLoanEMI"/>
+        <method signature="HomeLoanEMI.validateOneTimeExpensesRupeesButton()[pri:21, instance:TestCases.LoanTenureCalculatorUICheck@7ae0a9ec]" name="validateOneTimeExpensesRupeesButton" class="TestCases.HomeLoanEMI"/>
+        <method signature="HomeLoanEMI.validatePropertyTaxesPerYearInputField(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:22, instance:TestCases.LoanTenureCalculatorUICheck@7ae0a9ec]" name="validatePropertyTaxesPerYearInputField" class="TestCases.HomeLoanEMI"/>
+        <method signature="HomeLoanEMI.validatePropertyTaxesPerYearRupeesButton()[pri:23, instance:TestCases.LoanTenureCalculatorUICheck@7ae0a9ec]" name="validatePropertyTaxesPerYearRupeesButton" class="TestCases.HomeLoanEMI"/>
+        <method signature="HomeLoanEMI.validateHomeInsurancePerYearInputField(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:24, instance:TestCases.LoanTenureCalculatorUICheck@7ae0a9ec]" name="validateHomeInsurancePerYearInputField" class="TestCases.HomeLoanEMI"/>
+        <method signature="HomeLoanEMI.validateHomeInsurancePerYearRupeesButton()[pri:25, instance:TestCases.LoanTenureCalculatorUICheck@7ae0a9ec]" name="validateHomeInsurancePerYearRupeesButton" class="TestCases.HomeLoanEMI"/>
+        <method signature="HomeLoanEMI.validateMaintenanceExpensesPerMonthInputField(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:26, instance:TestCases.LoanTenureCalculatorUICheck@7ae0a9ec]" name="validateMaintenanceExpensesPerMonthInputField" class="TestCases.HomeLoanEMI"/>
+        <method signature="HomeLoanEMI.printAllTheData()[pri:27, instance:TestCases.LoanTenureCalculatorUICheck@7ae0a9ec]" name="printAllTheData" class="TestCases.HomeLoanEMI"/>
+        <method signature="EMICalculator.calculatorsDropDownValidationFromHomeLoan()[pri:28, instance:TestCases.LoanTenureCalculatorUICheck@7ae0a9ec]" name="calculatorsDropDownValidationFromHomeLoan" class="TestCases.EMICalculator"/>
+        <method signature="EMICalculator.emiCalculatorPageValidation()[pri:29, instance:TestCases.LoanTenureCalculatorUICheck@7ae0a9ec]" name="emiCalculatorPageValidation" class="TestCases.EMICalculator"/>
+        <method signature="CalculateEmiUICheck.validateEmiCalculatorLink()[pri:30, instance:TestCases.LoanTenureCalculatorUICheck@7ae0a9ec]" name="validateEmiCalculatorLink" class="TestCases.CalculateEmiUICheck"/>
+        <method signature="CalculateEmiUICheck.verifyEmiCalculatorLoanAmountInputFieldPresence()[pri:31, instance:TestCases.LoanTenureCalculatorUICheck@7ae0a9ec]" name="verifyEmiCalculatorLoanAmountInputFieldPresence" class="TestCases.CalculateEmiUICheck"/>
+        <method signature="CalculateEmiUICheck.validateEmiCalculatorLoanAmountInputFieldByPassingValue(java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:32, instance:TestCases.LoanTenureCalculatorUICheck@7ae0a9ec]" name="validateEmiCalculatorLoanAmountInputFieldByPassingValue" class="TestCases.CalculateEmiUICheck"/>
+        <method signature="CalculateEmiUICheck.verifyEmiCalculatorInterestRateInputFieldPresence()[pri:33, instance:TestCases.LoanTenureCalculatorUICheck@7ae0a9ec]" name="verifyEmiCalculatorInterestRateInputFieldPresence" class="TestCases.CalculateEmiUICheck"/>
+        <method signature="CalculateEmiUICheck.validateEmiCalculatorInterestRateInputFieldByPassingValue(java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:34, instance:TestCases.LoanTenureCalculatorUICheck@7ae0a9ec]" name="validateEmiCalculatorInterestRateInputFieldByPassingValue" class="TestCases.CalculateEmiUICheck"/>
+        <method signature="CalculateEmiUICheck.verifyEmiCalculatorLoanTenureInputFieldPresence()[pri:35, instance:TestCases.LoanTenureCalculatorUICheck@7ae0a9ec]" name="verifyEmiCalculatorLoanTenureInputFieldPresence" class="TestCases.CalculateEmiUICheck"/>
+        <method signature="CalculateEmiUICheck.validateEmiCalculatorLoanTenureInputFieldByPassingValue(java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:36, instance:TestCases.LoanTenureCalculatorUICheck@7ae0a9ec]" name="validateEmiCalculatorLoanTenureInputFieldByPassingValue" class="TestCases.CalculateEmiUICheck"/>
+        <method signature="CalculateEmiUICheck.validateEmiCalculatorLoanTenureMonthButton()[pri:37, instance:TestCases.LoanTenureCalculatorUICheck@7ae0a9ec]" name="validateEmiCalculatorLoanTenureMonthButton" class="TestCases.CalculateEmiUICheck"/>
+        <method signature="CalculateEmiUICheck.verifyEmiCalculatorLoanChargesInputFieldPresence()[pri:38, instance:TestCases.LoanTenureCalculatorUICheck@7ae0a9ec]" name="verifyEmiCalculatorLoanChargesInputFieldPresence" class="TestCases.CalculateEmiUICheck"/>
+        <method signature="CalculateEmiUICheck.validateEmiCalculatorLoanChargesInputFieldByPassingValue(java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:39, instance:TestCases.LoanTenureCalculatorUICheck@7ae0a9ec]" name="validateEmiCalculatorLoanChargesInputFieldByPassingValue" class="TestCases.CalculateEmiUICheck"/>
+        <method signature="LoanAmountCalculatorUICheck.validateLoanAmountCalculatorLink()[pri:40, instance:TestCases.LoanTenureCalculatorUICheck@7ae0a9ec]" name="validateLoanAmountCalculatorLink" class="TestCases.LoanAmountCalculatorUICheck"/>
+        <method signature="LoanAmountCalculatorUICheck.verifyEmiInputFieldPresence()[pri:41, instance:TestCases.LoanTenureCalculatorUICheck@7ae0a9ec]" name="verifyEmiInputFieldPresence" class="TestCases.LoanAmountCalculatorUICheck"/>
+        <method signature="LoanAmountCalculatorUICheck.verifyEmiInputFieldByPassingValue(java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:42, instance:TestCases.LoanTenureCalculatorUICheck@7ae0a9ec]" name="verifyEmiInputFieldByPassingValue" class="TestCases.LoanAmountCalculatorUICheck"/>
+        <method signature="LoanAmountCalculatorUICheck.verifyLoanAmountInterestRateInputFieldPresence()[pri:43, instance:TestCases.LoanTenureCalculatorUICheck@7ae0a9ec]" name="verifyLoanAmountInterestRateInputFieldPresence" class="TestCases.LoanAmountCalculatorUICheck"/>
+        <method signature="LoanAmountCalculatorUICheck.validateLoanAmountInterestRateInputFieldByPassingValue(java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:44, instance:TestCases.LoanTenureCalculatorUICheck@7ae0a9ec]" name="validateLoanAmountInterestRateInputFieldByPassingValue" class="TestCases.LoanAmountCalculatorUICheck"/>
+        <method signature="LoanAmountCalculatorUICheck.verifyLoanAmountTenureInputFieldPresence()[pri:45, instance:TestCases.LoanTenureCalculatorUICheck@7ae0a9ec]" name="verifyLoanAmountTenureInputFieldPresence" class="TestCases.LoanAmountCalculatorUICheck"/>
+        <method signature="LoanAmountCalculatorUICheck.validateLoanAmountTenureInputFieldByPassingValue(java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:46, instance:TestCases.LoanTenureCalculatorUICheck@7ae0a9ec]" name="validateLoanAmountTenureInputFieldByPassingValue" class="TestCases.LoanAmountCalculatorUICheck"/>
+        <method signature="LoanAmountCalculatorUICheck.validateLoanAmountLoanTenureMonthButton()[pri:47, instance:TestCases.LoanTenureCalculatorUICheck@7ae0a9ec]" name="validateLoanAmountLoanTenureMonthButton" class="TestCases.LoanAmountCalculatorUICheck"/>
+        <method signature="LoanAmountCalculatorUICheck.verifyLoanAmountLoanChargesInputFieldPresence()[pri:48, instance:TestCases.LoanTenureCalculatorUICheck@7ae0a9ec]" name="verifyLoanAmountLoanChargesInputFieldPresence" class="TestCases.LoanAmountCalculatorUICheck"/>
+        <method signature="LoanAmountCalculatorUICheck.validateLoanAmountLoanChargesInputFieldByPassingValue(java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:49, instance:TestCases.LoanTenureCalculatorUICheck@7ae0a9ec]" name="validateLoanAmountLoanChargesInputFieldByPassingValue" class="TestCases.LoanAmountCalculatorUICheck"/>
+        <method signature="LoanTenureCalculatorUICheck.validateLoanTenureCalculatorLink()[pri:50, instance:TestCases.LoanTenureCalculatorUICheck@7ae0a9ec]" name="validateLoanTenureCalculatorLink" class="TestCases.LoanTenureCalculatorUICheck"/>
+        <method signature="LoanTenureCalculatorUICheck.verifyLoanTenureLoanAmountInputFieldPresence()[pri:51, instance:TestCases.LoanTenureCalculatorUICheck@7ae0a9ec]" name="verifyLoanTenureLoanAmountInputFieldPresence" class="TestCases.LoanTenureCalculatorUICheck"/>
+        <method signature="LoanTenureCalculatorUICheck.validateLoanTenureLoanAmountInputFieldByPassingValue(java.lang.String,java.lang.String,java.lang.String)[pri:52, instance:TestCases.LoanTenureCalculatorUICheck@7ae0a9ec]" name="validateLoanTenureLoanAmountInputFieldByPassingValue" class="TestCases.LoanTenureCalculatorUICheck"/>
+        <method signature="LoanTenureCalculatorUICheck.verifyLoanTenureEmiInputFieldPresence()[pri:53, instance:TestCases.LoanTenureCalculatorUICheck@7ae0a9ec]" name="verifyLoanTenureEmiInputFieldPresence" class="TestCases.LoanTenureCalculatorUICheck"/>
+        <method signature="LoanTenureCalculatorUICheck.verifyLoanTenureInterestRateInputFieldPresence()[pri:54, instance:TestCases.LoanTenureCalculatorUICheck@7ae0a9ec]" name="verifyLoanTenureInterestRateInputFieldPresence" class="TestCases.LoanTenureCalculatorUICheck"/>
+        <method signature="LoanTenureCalculatorUICheck.validateLoanTenureInterestRateInputFieldByPassingValue(java.lang.String,java.lang.String,java.lang.String)[pri:55, instance:TestCases.LoanTenureCalculatorUICheck@7ae0a9ec]" name="validateLoanTenureInterestRateInputFieldByPassingValue" class="TestCases.LoanTenureCalculatorUICheck"/>
+        <method signature="LoanTenureCalculatorUICheck.verifyLoanTenuteLoanChargesInputFieldPresence()[pri:56, instance:TestCases.LoanTenureCalculatorUICheck@7ae0a9ec]" name="verifyLoanTenuteLoanChargesInputFieldPresence" class="TestCases.LoanTenureCalculatorUICheck"/>
+        <method signature="LoanTenureCalculatorUICheck.validateLoanTenureLoanChargesInputFieldByValue(java.lang.String,java.lang.String,java.lang.String)[pri:57, instance:TestCases.LoanTenureCalculatorUICheck@7ae0a9ec]" name="validateLoanTenureLoanChargesInputFieldByValue" class="TestCases.LoanTenureCalculatorUICheck"/>
+      </group> <!-- Master -->
+      <group name="Sanity">
+        <method signature="CarLoanEMI.clickOnCarLoanLink()[pri:1, instance:TestCases.LoanTenureCalculatorUICheck@7ae0a9ec]" name="clickOnCarLoanLink" class="TestCases.CarLoanEMI"/>
+        <method signature="HomeLoanEMI.calculatorsDropDownValidation()[pri:7, instance:TestCases.LoanTenureCalculatorUICheck@7ae0a9ec]" name="calculatorsDropDownValidation" class="TestCases.HomeLoanEMI"/>
+        <method signature="HomeLoanEMI.homeLoanEmiCalculatorValidation()[pri:8, instance:TestCases.LoanTenureCalculatorUICheck@7ae0a9ec]" name="homeLoanEmiCalculatorValidation" class="TestCases.HomeLoanEMI"/>
+        <method signature="EMICalculator.calculatorsDropDownValidationFromHomeLoan()[pri:28, instance:TestCases.LoanTenureCalculatorUICheck@7ae0a9ec]" name="calculatorsDropDownValidationFromHomeLoan" class="TestCases.EMICalculator"/>
+        <method signature="EMICalculator.emiCalculatorPageValidation()[pri:29, instance:TestCases.LoanTenureCalculatorUICheck@7ae0a9ec]" name="emiCalculatorPageValidation" class="TestCases.EMICalculator"/>
+        <method signature="CalculateEmiUICheck.validateEmiCalculatorLink()[pri:30, instance:TestCases.LoanTenureCalculatorUICheck@7ae0a9ec]" name="validateEmiCalculatorLink" class="TestCases.CalculateEmiUICheck"/>
+        <method signature="LoanAmountCalculatorUICheck.validateLoanAmountCalculatorLink()[pri:40, instance:TestCases.LoanTenureCalculatorUICheck@7ae0a9ec]" name="validateLoanAmountCalculatorLink" class="TestCases.LoanAmountCalculatorUICheck"/>
+        <method signature="LoanTenureCalculatorUICheck.validateLoanTenureCalculatorLink()[pri:50, instance:TestCases.LoanTenureCalculatorUICheck@7ae0a9ec]" name="validateLoanTenureCalculatorLink" class="TestCases.LoanTenureCalculatorUICheck"/>
+      </group> <!-- Sanity -->
+      <group name="Regression">
+        <method signature="CarLoanEMI.setCarAmount(java.lang.String,java.lang.String,java.lang.String)[pri:2, instance:TestCases.LoanTenureCalculatorUICheck@7ae0a9ec]" name="setCarAmount" class="TestCases.CarLoanEMI"/>
+        <method signature="CarLoanEMI.setInterestRate(java.lang.String,java.lang.String,java.lang.String)[pri:3, instance:TestCases.LoanTenureCalculatorUICheck@7ae0a9ec]" name="setInterestRate" class="TestCases.CarLoanEMI"/>
+        <method signature="CarLoanEMI.setLoanTenure(java.lang.String,java.lang.String,java.lang.String)[pri:4, instance:TestCases.LoanTenureCalculatorUICheck@7ae0a9ec]" name="setLoanTenure" class="TestCases.CarLoanEMI"/>
+        <method signature="CarLoanEMI.clickOnyear()[pri:5, instance:TestCases.LoanTenureCalculatorUICheck@7ae0a9ec]" name="clickOnyear" class="TestCases.CarLoanEMI"/>
+        <method signature="CarLoanEMI.readData()[pri:6, instance:TestCases.LoanTenureCalculatorUICheck@7ae0a9ec]" name="readData" class="TestCases.CarLoanEMI"/>
+        <method signature="HomeLoanEMI.validateHomeValueInputfield(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:9, instance:TestCases.LoanTenureCalculatorUICheck@7ae0a9ec]" name="validateHomeValueInputfield" class="TestCases.HomeLoanEMI"/>
+        <method signature="HomeLoanEMI.validateDownPaymentInputFieldInPercentage(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:10, instance:TestCases.LoanTenureCalculatorUICheck@7ae0a9ec]" name="validateDownPaymentInputFieldInPercentage" class="TestCases.HomeLoanEMI"/>
+        <method signature="HomeLoanEMI.validateDownPaymentRupeesButton()[pri:11, instance:TestCases.LoanTenureCalculatorUICheck@7ae0a9ec]" name="validateDownPaymentRupeesButton" class="TestCases.HomeLoanEMI"/>
+        <method signature="HomeLoanEMI.validateLoanInsuranceInputField(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:12, instance:TestCases.LoanTenureCalculatorUICheck@7ae0a9ec]" name="validateLoanInsuranceInputField" class="TestCases.HomeLoanEMI"/>
+        <method signature="HomeLoanEMI.validateInterestRateInputField(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:13, instance:TestCases.LoanTenureCalculatorUICheck@7ae0a9ec]" name="validateInterestRateInputField" class="TestCases.HomeLoanEMI"/>
+        <method signature="HomeLoanEMI.validateLoanTenureInputField(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:14, instance:TestCases.LoanTenureCalculatorUICheck@7ae0a9ec]" name="validateLoanTenureInputField" class="TestCases.HomeLoanEMI"/>
+        <method signature="HomeLoanEMI.validateLoanTenureMonthsButton()[pri:15, instance:TestCases.LoanTenureCalculatorUICheck@7ae0a9ec]" name="validateLoanTenureMonthsButton" class="TestCases.HomeLoanEMI"/>
+        <method signature="HomeLoanEMI.validateLoanChargesInputField(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:16, instance:TestCases.LoanTenureCalculatorUICheck@7ae0a9ec]" name="validateLoanChargesInputField" class="TestCases.HomeLoanEMI"/>
+        <method signature="HomeLoanEMI.validateLoanChargesRupeesButtonElement()[pri:17, instance:TestCases.LoanTenureCalculatorUICheck@7ae0a9ec]" name="validateLoanChargesRupeesButtonElement" class="TestCases.HomeLoanEMI"/>
+        <method signature="HomeLoanEMI.validateLoanStartMonthAndYearField()[pri:18, instance:TestCases.LoanTenureCalculatorUICheck@7ae0a9ec]" name="validateLoanStartMonthAndYearField" class="TestCases.HomeLoanEMI"/>
+        <method signature="HomeLoanEMI.validateLoanStartMonthAndYearInputField(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:19, instance:TestCases.LoanTenureCalculatorUICheck@7ae0a9ec]" name="validateLoanStartMonthAndYearInputField" class="TestCases.HomeLoanEMI"/>
+        <method signature="HomeLoanEMI.validateOneTimeExpensesInputField(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:20, instance:TestCases.LoanTenureCalculatorUICheck@7ae0a9ec]" name="validateOneTimeExpensesInputField" class="TestCases.HomeLoanEMI"/>
+        <method signature="HomeLoanEMI.validateOneTimeExpensesRupeesButton()[pri:21, instance:TestCases.LoanTenureCalculatorUICheck@7ae0a9ec]" name="validateOneTimeExpensesRupeesButton" class="TestCases.HomeLoanEMI"/>
+        <method signature="HomeLoanEMI.validatePropertyTaxesPerYearInputField(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:22, instance:TestCases.LoanTenureCalculatorUICheck@7ae0a9ec]" name="validatePropertyTaxesPerYearInputField" class="TestCases.HomeLoanEMI"/>
+        <method signature="HomeLoanEMI.validatePropertyTaxesPerYearRupeesButton()[pri:23, instance:TestCases.LoanTenureCalculatorUICheck@7ae0a9ec]" name="validatePropertyTaxesPerYearRupeesButton" class="TestCases.HomeLoanEMI"/>
+        <method signature="HomeLoanEMI.validateHomeInsurancePerYearInputField(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:24, instance:TestCases.LoanTenureCalculatorUICheck@7ae0a9ec]" name="validateHomeInsurancePerYearInputField" class="TestCases.HomeLoanEMI"/>
+        <method signature="HomeLoanEMI.validateHomeInsurancePerYearRupeesButton()[pri:25, instance:TestCases.LoanTenureCalculatorUICheck@7ae0a9ec]" name="validateHomeInsurancePerYearRupeesButton" class="TestCases.HomeLoanEMI"/>
+        <method signature="HomeLoanEMI.validateMaintenanceExpensesPerMonthInputField(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:26, instance:TestCases.LoanTenureCalculatorUICheck@7ae0a9ec]" name="validateMaintenanceExpensesPerMonthInputField" class="TestCases.HomeLoanEMI"/>
+        <method signature="HomeLoanEMI.printAllTheData()[pri:27, instance:TestCases.LoanTenureCalculatorUICheck@7ae0a9ec]" name="printAllTheData" class="TestCases.HomeLoanEMI"/>
+        <method signature="CalculateEmiUICheck.verifyEmiCalculatorLoanAmountInputFieldPresence()[pri:31, instance:TestCases.LoanTenureCalculatorUICheck@7ae0a9ec]" name="verifyEmiCalculatorLoanAmountInputFieldPresence" class="TestCases.CalculateEmiUICheck"/>
+        <method signature="CalculateEmiUICheck.validateEmiCalculatorLoanAmountInputFieldByPassingValue(java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:32, instance:TestCases.LoanTenureCalculatorUICheck@7ae0a9ec]" name="validateEmiCalculatorLoanAmountInputFieldByPassingValue" class="TestCases.CalculateEmiUICheck"/>
+        <method signature="CalculateEmiUICheck.verifyEmiCalculatorInterestRateInputFieldPresence()[pri:33, instance:TestCases.LoanTenureCalculatorUICheck@7ae0a9ec]" name="verifyEmiCalculatorInterestRateInputFieldPresence" class="TestCases.CalculateEmiUICheck"/>
+        <method signature="CalculateEmiUICheck.validateEmiCalculatorInterestRateInputFieldByPassingValue(java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:34, instance:TestCases.LoanTenureCalculatorUICheck@7ae0a9ec]" name="validateEmiCalculatorInterestRateInputFieldByPassingValue" class="TestCases.CalculateEmiUICheck"/>
+        <method signature="CalculateEmiUICheck.verifyEmiCalculatorLoanTenureInputFieldPresence()[pri:35, instance:TestCases.LoanTenureCalculatorUICheck@7ae0a9ec]" name="verifyEmiCalculatorLoanTenureInputFieldPresence" class="TestCases.CalculateEmiUICheck"/>
+        <method signature="CalculateEmiUICheck.validateEmiCalculatorLoanTenureInputFieldByPassingValue(java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:36, instance:TestCases.LoanTenureCalculatorUICheck@7ae0a9ec]" name="validateEmiCalculatorLoanTenureInputFieldByPassingValue" class="TestCases.CalculateEmiUICheck"/>
+        <method signature="CalculateEmiUICheck.validateEmiCalculatorLoanTenureMonthButton()[pri:37, instance:TestCases.LoanTenureCalculatorUICheck@7ae0a9ec]" name="validateEmiCalculatorLoanTenureMonthButton" class="TestCases.CalculateEmiUICheck"/>
+        <method signature="CalculateEmiUICheck.verifyEmiCalculatorLoanChargesInputFieldPresence()[pri:38, instance:TestCases.LoanTenureCalculatorUICheck@7ae0a9ec]" name="verifyEmiCalculatorLoanChargesInputFieldPresence" class="TestCases.CalculateEmiUICheck"/>
+        <method signature="CalculateEmiUICheck.validateEmiCalculatorLoanChargesInputFieldByPassingValue(java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:39, instance:TestCases.LoanTenureCalculatorUICheck@7ae0a9ec]" name="validateEmiCalculatorLoanChargesInputFieldByPassingValue" class="TestCases.CalculateEmiUICheck"/>
+        <method signature="LoanAmountCalculatorUICheck.verifyEmiInputFieldPresence()[pri:41, instance:TestCases.LoanTenureCalculatorUICheck@7ae0a9ec]" name="verifyEmiInputFieldPresence" class="TestCases.LoanAmountCalculatorUICheck"/>
+        <method signature="LoanAmountCalculatorUICheck.verifyEmiInputFieldByPassingValue(java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:42, instance:TestCases.LoanTenureCalculatorUICheck@7ae0a9ec]" name="verifyEmiInputFieldByPassingValue" class="TestCases.LoanAmountCalculatorUICheck"/>
+        <method signature="LoanAmountCalculatorUICheck.verifyLoanAmountInterestRateInputFieldPresence()[pri:43, instance:TestCases.LoanTenureCalculatorUICheck@7ae0a9ec]" name="verifyLoanAmountInterestRateInputFieldPresence" class="TestCases.LoanAmountCalculatorUICheck"/>
+        <method signature="LoanAmountCalculatorUICheck.validateLoanAmountInterestRateInputFieldByPassingValue(java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:44, instance:TestCases.LoanTenureCalculatorUICheck@7ae0a9ec]" name="validateLoanAmountInterestRateInputFieldByPassingValue" class="TestCases.LoanAmountCalculatorUICheck"/>
+        <method signature="LoanAmountCalculatorUICheck.verifyLoanAmountTenureInputFieldPresence()[pri:45, instance:TestCases.LoanTenureCalculatorUICheck@7ae0a9ec]" name="verifyLoanAmountTenureInputFieldPresence" class="TestCases.LoanAmountCalculatorUICheck"/>
+        <method signature="LoanAmountCalculatorUICheck.validateLoanAmountTenureInputFieldByPassingValue(java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:46, instance:TestCases.LoanTenureCalculatorUICheck@7ae0a9ec]" name="validateLoanAmountTenureInputFieldByPassingValue" class="TestCases.LoanAmountCalculatorUICheck"/>
+        <method signature="LoanAmountCalculatorUICheck.validateLoanAmountLoanTenureMonthButton()[pri:47, instance:TestCases.LoanTenureCalculatorUICheck@7ae0a9ec]" name="validateLoanAmountLoanTenureMonthButton" class="TestCases.LoanAmountCalculatorUICheck"/>
+        <method signature="LoanAmountCalculatorUICheck.verifyLoanAmountLoanChargesInputFieldPresence()[pri:48, instance:TestCases.LoanTenureCalculatorUICheck@7ae0a9ec]" name="verifyLoanAmountLoanChargesInputFieldPresence" class="TestCases.LoanAmountCalculatorUICheck"/>
+        <method signature="LoanAmountCalculatorUICheck.validateLoanAmountLoanChargesInputFieldByPassingValue(java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:49, instance:TestCases.LoanTenureCalculatorUICheck@7ae0a9ec]" name="validateLoanAmountLoanChargesInputFieldByPassingValue" class="TestCases.LoanAmountCalculatorUICheck"/>
+        <method signature="LoanTenureCalculatorUICheck.verifyLoanTenureLoanAmountInputFieldPresence()[pri:51, instance:TestCases.LoanTenureCalculatorUICheck@7ae0a9ec]" name="verifyLoanTenureLoanAmountInputFieldPresence" class="TestCases.LoanTenureCalculatorUICheck"/>
+        <method signature="LoanTenureCalculatorUICheck.validateLoanTenureLoanAmountInputFieldByPassingValue(java.lang.String,java.lang.String,java.lang.String)[pri:52, instance:TestCases.LoanTenureCalculatorUICheck@7ae0a9ec]" name="validateLoanTenureLoanAmountInputFieldByPassingValue" class="TestCases.LoanTenureCalculatorUICheck"/>
+        <method signature="LoanTenureCalculatorUICheck.verifyLoanTenureEmiInputFieldPresence()[pri:53, instance:TestCases.LoanTenureCalculatorUICheck@7ae0a9ec]" name="verifyLoanTenureEmiInputFieldPresence" class="TestCases.LoanTenureCalculatorUICheck"/>
+        <method signature="LoanTenureCalculatorUICheck.verifyLoanTenureInterestRateInputFieldPresence()[pri:54, instance:TestCases.LoanTenureCalculatorUICheck@7ae0a9ec]" name="verifyLoanTenureInterestRateInputFieldPresence" class="TestCases.LoanTenureCalculatorUICheck"/>
+        <method signature="LoanTenureCalculatorUICheck.validateLoanTenureInterestRateInputFieldByPassingValue(java.lang.String,java.lang.String,java.lang.String)[pri:55, instance:TestCases.LoanTenureCalculatorUICheck@7ae0a9ec]" name="validateLoanTenureInterestRateInputFieldByPassingValue" class="TestCases.LoanTenureCalculatorUICheck"/>
+        <method signature="LoanTenureCalculatorUICheck.verifyLoanTenuteLoanChargesInputFieldPresence()[pri:56, instance:TestCases.LoanTenureCalculatorUICheck@7ae0a9ec]" name="verifyLoanTenuteLoanChargesInputFieldPresence" class="TestCases.LoanTenureCalculatorUICheck"/>
+        <method signature="LoanTenureCalculatorUICheck.validateLoanTenureLoanChargesInputFieldByValue(java.lang.String,java.lang.String,java.lang.String)[pri:57, instance:TestCases.LoanTenureCalculatorUICheck@7ae0a9ec]" name="validateLoanTenureLoanChargesInputFieldByValue" class="TestCases.LoanTenureCalculatorUICheck"/>
+      </group> <!-- Regression -->
+    </groups>
+    <test started-at="2024-02-15T09:22:05 IST" name="Test" finished-at="2024-02-15T09:23:44 IST" duration-ms="99652">
+      <class name="TestCases.LoanTenureCalculatorUICheck">
+        <test-method is-config="true" signature="setUp(java.lang.String,java.lang.String)[pri:0, instance:TestCases.LoanTenureCalculatorUICheck@7ae0a9ec]" started-at="2024-02-15T09:22:05 IST" name="setUp" finished-at="2024-02-15T09:22:14 IST" duration-ms="8810" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Windows]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="clickOnCarLoanLink()[pri:1, instance:TestCases.LoanTenureCalculatorUICheck@7ae0a9ec]" started-at="2024-02-15T09:22:14 IST" name="clickOnCarLoanLink" finished-at="2024-02-15T09:22:14 IST" duration-ms="343" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- clickOnCarLoanLink -->
+        <test-method signature="setCarAmount(java.lang.String,java.lang.String,java.lang.String)[pri:2, instance:TestCases.LoanTenureCalculatorUICheck@7ae0a9ec]" started-at="2024-02-15T09:22:16 IST" name="setCarAmount" data-provider="carLoanData" finished-at="2024-02-15T09:22:16 IST" depends-on-methods="TestCases.CarLoanEMI.clickOnCarLoanLink" duration-ms="678" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[15,00,000]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[9.5]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[1.0]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setCarAmount -->
+        <test-method signature="setInterestRate(java.lang.String,java.lang.String,java.lang.String)[pri:3, instance:TestCases.LoanTenureCalculatorUICheck@7ae0a9ec]" started-at="2024-02-15T09:22:17 IST" name="setInterestRate" data-provider="carLoanData" finished-at="2024-02-15T09:22:17 IST" depends-on-methods="TestCases.CarLoanEMI.clickOnCarLoanLink" duration-ms="670" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[15,00,000]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[9.5]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[1.0]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setInterestRate -->
+        <test-method signature="setLoanTenure(java.lang.String,java.lang.String,java.lang.String)[pri:4, instance:TestCases.LoanTenureCalculatorUICheck@7ae0a9ec]" started-at="2024-02-15T09:22:18 IST" name="setLoanTenure" data-provider="carLoanData" finished-at="2024-02-15T09:22:19 IST" depends-on-methods="TestCases.CarLoanEMI.clickOnCarLoanLink" duration-ms="728" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[15,00,000]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[9.5]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[1.0]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setLoanTenure -->
+        <test-method signature="clickOnyear()[pri:5, instance:TestCases.LoanTenureCalculatorUICheck@7ae0a9ec]" started-at="2024-02-15T09:22:19 IST" name="clickOnyear" finished-at="2024-02-15T09:22:19 IST" depends-on-methods="TestCases.CarLoanEMI.clickOnCarLoanLink" duration-ms="125" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- clickOnyear -->
+        <test-method signature="readData()[pri:6, instance:TestCases.LoanTenureCalculatorUICheck@7ae0a9ec]" started-at="2024-02-15T09:22:19 IST" name="readData" finished-at="2024-02-15T09:22:19 IST" depends-on-methods="TestCases.CarLoanEMI.clickOnCarLoanLink" duration-ms="135" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- readData -->
+        <test-method signature="calculatorsDropDownValidation()[pri:7, instance:TestCases.LoanTenureCalculatorUICheck@7ae0a9ec]" started-at="2024-02-15T09:22:20 IST" name="calculatorsDropDownValidation" finished-at="2024-02-15T09:22:20 IST" duration-ms="126" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- calculatorsDropDownValidation -->
+        <test-method signature="homeLoanEmiCalculatorValidation()[pri:8, instance:TestCases.LoanTenureCalculatorUICheck@7ae0a9ec]" started-at="2024-02-15T09:22:20 IST" name="homeLoanEmiCalculatorValidation" finished-at="2024-02-15T09:22:34 IST" duration-ms="14270" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- homeLoanEmiCalculatorValidation -->
+        <test-method signature="validateHomeValueInputfield(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:9, instance:TestCases.LoanTenureCalculatorUICheck@7ae0a9ec]" started-at="2024-02-15T09:22:35 IST" name="validateHomeValueInputfield" data-provider="homeLoanDetailsData" finished-at="2024-02-15T09:22:39 IST" depends-on-methods="TestCases.HomeLoanEMI.homeLoanEmiCalculatorValidation, TestCases.HomeLoanEMI.calculatorsDropDownValidation" duration-ms="3878" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[2,00,00,000]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[25.0]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[10,00,000]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[12.0]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[10.0]]>
+              </value>
+            </param>
+            <param index="5">
+              <value>
+                <![CDATA[0.3]]>
+              </value>
+            </param>
+            <param index="6">
+              <value>
+                <![CDATA[01-Feb-2029]]>
+              </value>
+            </param>
+            <param index="7">
+              <value>
+                <![CDATA[5.0]]>
+              </value>
+            </param>
+            <param index="8">
+              <value>
+                <![CDATA[0.3]]>
+              </value>
+            </param>
+            <param index="9">
+              <value>
+                <![CDATA[0.1]]>
+              </value>
+            </param>
+            <param index="10">
+              <value>
+                <![CDATA[3000.0]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- validateHomeValueInputfield -->
+        <test-method signature="validateDownPaymentInputFieldInPercentage(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:10, instance:TestCases.LoanTenureCalculatorUICheck@7ae0a9ec]" started-at="2024-02-15T09:22:40 IST" name="validateDownPaymentInputFieldInPercentage" data-provider="homeLoanDetailsData" finished-at="2024-02-15T09:22:43 IST" depends-on-methods="TestCases.HomeLoanEMI.homeLoanEmiCalculatorValidation, TestCases.HomeLoanEMI.calculatorsDropDownValidation" duration-ms="3470" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[2,00,00,000]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[25.0]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[10,00,000]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[12.0]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[10.0]]>
+              </value>
+            </param>
+            <param index="5">
+              <value>
+                <![CDATA[0.3]]>
+              </value>
+            </param>
+            <param index="6">
+              <value>
+                <![CDATA[01-Feb-2029]]>
+              </value>
+            </param>
+            <param index="7">
+              <value>
+                <![CDATA[5.0]]>
+              </value>
+            </param>
+            <param index="8">
+              <value>
+                <![CDATA[0.3]]>
+              </value>
+            </param>
+            <param index="9">
+              <value>
+                <![CDATA[0.1]]>
+              </value>
+            </param>
+            <param index="10">
+              <value>
+                <![CDATA[3000.0]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- validateDownPaymentInputFieldInPercentage -->
+        <test-method signature="validateDownPaymentRupeesButton()[pri:11, instance:TestCases.LoanTenureCalculatorUICheck@7ae0a9ec]" started-at="2024-02-15T09:22:43 IST" name="validateDownPaymentRupeesButton" finished-at="2024-02-15T09:22:44 IST" depends-on-methods="TestCases.HomeLoanEMI.homeLoanEmiCalculatorValidation, TestCases.HomeLoanEMI.calculatorsDropDownValidation" duration-ms="286" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- validateDownPaymentRupeesButton -->
+        <test-method signature="validateLoanInsuranceInputField(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:12, instance:TestCases.LoanTenureCalculatorUICheck@7ae0a9ec]" started-at="2024-02-15T09:22:44 IST" name="validateLoanInsuranceInputField" data-provider="homeLoanDetailsData" finished-at="2024-02-15T09:22:48 IST" depends-on-methods="TestCases.HomeLoanEMI.homeLoanEmiCalculatorValidation, TestCases.HomeLoanEMI.calculatorsDropDownValidation" duration-ms="3473" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[2,00,00,000]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[25.0]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[10,00,000]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[12.0]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[10.0]]>
+              </value>
+            </param>
+            <param index="5">
+              <value>
+                <![CDATA[0.3]]>
+              </value>
+            </param>
+            <param index="6">
+              <value>
+                <![CDATA[01-Feb-2029]]>
+              </value>
+            </param>
+            <param index="7">
+              <value>
+                <![CDATA[5.0]]>
+              </value>
+            </param>
+            <param index="8">
+              <value>
+                <![CDATA[0.3]]>
+              </value>
+            </param>
+            <param index="9">
+              <value>
+                <![CDATA[0.1]]>
+              </value>
+            </param>
+            <param index="10">
+              <value>
+                <![CDATA[3000.0]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- validateLoanInsuranceInputField -->
+        <test-method signature="validateInterestRateInputField(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:13, instance:TestCases.LoanTenureCalculatorUICheck@7ae0a9ec]" started-at="2024-02-15T09:22:48 IST" name="validateInterestRateInputField" data-provider="homeLoanDetailsData" finished-at="2024-02-15T09:22:48 IST" depends-on-methods="TestCases.HomeLoanEMI.homeLoanEmiCalculatorValidation, TestCases.HomeLoanEMI.calculatorsDropDownValidation" duration-ms="210" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[2,00,00,000]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[25.0]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[10,00,000]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[12.0]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[10.0]]>
+              </value>
+            </param>
+            <param index="5">
+              <value>
+                <![CDATA[0.3]]>
+              </value>
+            </param>
+            <param index="6">
+              <value>
+                <![CDATA[01-Feb-2029]]>
+              </value>
+            </param>
+            <param index="7">
+              <value>
+                <![CDATA[5.0]]>
+              </value>
+            </param>
+            <param index="8">
+              <value>
+                <![CDATA[0.3]]>
+              </value>
+            </param>
+            <param index="9">
+              <value>
+                <![CDATA[0.1]]>
+              </value>
+            </param>
+            <param index="10">
+              <value>
+                <![CDATA[3000.0]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- validateInterestRateInputField -->
+        <test-method signature="validateLoanTenureInputField(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:14, instance:TestCases.LoanTenureCalculatorUICheck@7ae0a9ec]" started-at="2024-02-15T09:22:49 IST" name="validateLoanTenureInputField" data-provider="homeLoanDetailsData" finished-at="2024-02-15T09:22:49 IST" depends-on-methods="TestCases.HomeLoanEMI.homeLoanEmiCalculatorValidation, TestCases.HomeLoanEMI.calculatorsDropDownValidation" duration-ms="265" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[2,00,00,000]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[25.0]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[10,00,000]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[12.0]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[10.0]]>
+              </value>
+            </param>
+            <param index="5">
+              <value>
+                <![CDATA[0.3]]>
+              </value>
+            </param>
+            <param index="6">
+              <value>
+                <![CDATA[01-Feb-2029]]>
+              </value>
+            </param>
+            <param index="7">
+              <value>
+                <![CDATA[5.0]]>
+              </value>
+            </param>
+            <param index="8">
+              <value>
+                <![CDATA[0.3]]>
+              </value>
+            </param>
+            <param index="9">
+              <value>
+                <![CDATA[0.1]]>
+              </value>
+            </param>
+            <param index="10">
+              <value>
+                <![CDATA[3000.0]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- validateLoanTenureInputField -->
+        <test-method signature="validateLoanTenureMonthsButton()[pri:15, instance:TestCases.LoanTenureCalculatorUICheck@7ae0a9ec]" started-at="2024-02-15T09:22:49 IST" name="validateLoanTenureMonthsButton" finished-at="2024-02-15T09:22:50 IST" depends-on-methods="TestCases.HomeLoanEMI.homeLoanEmiCalculatorValidation, TestCases.HomeLoanEMI.calculatorsDropDownValidation" duration-ms="273" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- validateLoanTenureMonthsButton -->
+        <test-method signature="validateLoanChargesInputField(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:16, instance:TestCases.LoanTenureCalculatorUICheck@7ae0a9ec]" started-at="2024-02-15T09:22:50 IST" name="validateLoanChargesInputField" data-provider="homeLoanDetailsData" finished-at="2024-02-15T09:22:54 IST" depends-on-methods="TestCases.HomeLoanEMI.homeLoanEmiCalculatorValidation, TestCases.HomeLoanEMI.calculatorsDropDownValidation" duration-ms="4317" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[2,00,00,000]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[25.0]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[10,00,000]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[12.0]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[10.0]]>
+              </value>
+            </param>
+            <param index="5">
+              <value>
+                <![CDATA[0.3]]>
+              </value>
+            </param>
+            <param index="6">
+              <value>
+                <![CDATA[01-Feb-2029]]>
+              </value>
+            </param>
+            <param index="7">
+              <value>
+                <![CDATA[5.0]]>
+              </value>
+            </param>
+            <param index="8">
+              <value>
+                <![CDATA[0.3]]>
+              </value>
+            </param>
+            <param index="9">
+              <value>
+                <![CDATA[0.1]]>
+              </value>
+            </param>
+            <param index="10">
+              <value>
+                <![CDATA[3000.0]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- validateLoanChargesInputField -->
+        <test-method signature="validateLoanChargesRupeesButtonElement()[pri:17, instance:TestCases.LoanTenureCalculatorUICheck@7ae0a9ec]" started-at="2024-02-15T09:22:55 IST" name="validateLoanChargesRupeesButtonElement" finished-at="2024-02-15T09:22:55 IST" depends-on-methods="TestCases.HomeLoanEMI.homeLoanEmiCalculatorValidation, TestCases.HomeLoanEMI.calculatorsDropDownValidation" duration-ms="199" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- validateLoanChargesRupeesButtonElement -->
+        <test-method signature="validateLoanStartMonthAndYearField()[pri:18, instance:TestCases.LoanTenureCalculatorUICheck@7ae0a9ec]" started-at="2024-02-15T09:22:55 IST" name="validateLoanStartMonthAndYearField" finished-at="2024-02-15T09:22:55 IST" depends-on-methods="TestCases.HomeLoanEMI.homeLoanEmiCalculatorValidation, TestCases.HomeLoanEMI.calculatorsDropDownValidation" duration-ms="118" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- validateLoanStartMonthAndYearField -->
+        <test-method signature="validateLoanStartMonthAndYearInputField(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:19, instance:TestCases.LoanTenureCalculatorUICheck@7ae0a9ec]" started-at="2024-02-15T09:22:56 IST" name="validateLoanStartMonthAndYearInputField" data-provider="homeLoanDetailsData" finished-at="2024-02-15T09:22:56 IST" depends-on-methods="TestCases.HomeLoanEMI.homeLoanEmiCalculatorValidation, TestCases.HomeLoanEMI.calculatorsDropDownValidation" duration-ms="674" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[2,00,00,000]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[25.0]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[10,00,000]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[12.0]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[10.0]]>
+              </value>
+            </param>
+            <param index="5">
+              <value>
+                <![CDATA[0.3]]>
+              </value>
+            </param>
+            <param index="6">
+              <value>
+                <![CDATA[01-Feb-2029]]>
+              </value>
+            </param>
+            <param index="7">
+              <value>
+                <![CDATA[5.0]]>
+              </value>
+            </param>
+            <param index="8">
+              <value>
+                <![CDATA[0.3]]>
+              </value>
+            </param>
+            <param index="9">
+              <value>
+                <![CDATA[0.1]]>
+              </value>
+            </param>
+            <param index="10">
+              <value>
+                <![CDATA[3000.0]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- validateLoanStartMonthAndYearInputField -->
+        <test-method signature="validateOneTimeExpensesInputField(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:20, instance:TestCases.LoanTenureCalculatorUICheck@7ae0a9ec]" started-at="2024-02-15T09:22:57 IST" name="validateOneTimeExpensesInputField" data-provider="homeLoanDetailsData" finished-at="2024-02-15T09:22:57 IST" depends-on-methods="TestCases.HomeLoanEMI.homeLoanEmiCalculatorValidation, TestCases.HomeLoanEMI.calculatorsDropDownValidation" duration-ms="155" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[2,00,00,000]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[25.0]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[10,00,000]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[12.0]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[10.0]]>
+              </value>
+            </param>
+            <param index="5">
+              <value>
+                <![CDATA[0.3]]>
+              </value>
+            </param>
+            <param index="6">
+              <value>
+                <![CDATA[01-Feb-2029]]>
+              </value>
+            </param>
+            <param index="7">
+              <value>
+                <![CDATA[5.0]]>
+              </value>
+            </param>
+            <param index="8">
+              <value>
+                <![CDATA[0.3]]>
+              </value>
+            </param>
+            <param index="9">
+              <value>
+                <![CDATA[0.1]]>
+              </value>
+            </param>
+            <param index="10">
+              <value>
+                <![CDATA[3000.0]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- validateOneTimeExpensesInputField -->
+        <test-method signature="validateOneTimeExpensesRupeesButton()[pri:21, instance:TestCases.LoanTenureCalculatorUICheck@7ae0a9ec]" started-at="2024-02-15T09:22:57 IST" name="validateOneTimeExpensesRupeesButton" finished-at="2024-02-15T09:23:00 IST" depends-on-methods="TestCases.HomeLoanEMI.homeLoanEmiCalculatorValidation, TestCases.HomeLoanEMI.calculatorsDropDownValidation" duration-ms="3213" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- validateOneTimeExpensesRupeesButton -->
+        <test-method signature="validatePropertyTaxesPerYearInputField(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:22, instance:TestCases.LoanTenureCalculatorUICheck@7ae0a9ec]" started-at="2024-02-15T09:23:01 IST" name="validatePropertyTaxesPerYearInputField" data-provider="homeLoanDetailsData" finished-at="2024-02-15T09:23:01 IST" depends-on-methods="TestCases.HomeLoanEMI.homeLoanEmiCalculatorValidation, TestCases.HomeLoanEMI.calculatorsDropDownValidation" duration-ms="155" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[2,00,00,000]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[25.0]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[10,00,000]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[12.0]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[10.0]]>
+              </value>
+            </param>
+            <param index="5">
+              <value>
+                <![CDATA[0.3]]>
+              </value>
+            </param>
+            <param index="6">
+              <value>
+                <![CDATA[01-Feb-2029]]>
+              </value>
+            </param>
+            <param index="7">
+              <value>
+                <![CDATA[5.0]]>
+              </value>
+            </param>
+            <param index="8">
+              <value>
+                <![CDATA[0.3]]>
+              </value>
+            </param>
+            <param index="9">
+              <value>
+                <![CDATA[0.1]]>
+              </value>
+            </param>
+            <param index="10">
+              <value>
+                <![CDATA[3000.0]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- validatePropertyTaxesPerYearInputField -->
+        <test-method signature="validatePropertyTaxesPerYearRupeesButton()[pri:23, instance:TestCases.LoanTenureCalculatorUICheck@7ae0a9ec]" started-at="2024-02-15T09:23:01 IST" name="validatePropertyTaxesPerYearRupeesButton" finished-at="2024-02-15T09:23:05 IST" depends-on-methods="TestCases.HomeLoanEMI.homeLoanEmiCalculatorValidation, TestCases.HomeLoanEMI.calculatorsDropDownValidation" duration-ms="3289" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- validatePropertyTaxesPerYearRupeesButton -->
+        <test-method signature="validateHomeInsurancePerYearInputField(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:24, instance:TestCases.LoanTenureCalculatorUICheck@7ae0a9ec]" started-at="2024-02-15T09:23:05 IST" name="validateHomeInsurancePerYearInputField" data-provider="homeLoanDetailsData" finished-at="2024-02-15T09:23:05 IST" depends-on-methods="TestCases.HomeLoanEMI.homeLoanEmiCalculatorValidation, TestCases.HomeLoanEMI.calculatorsDropDownValidation" duration-ms="150" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[2,00,00,000]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[25.0]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[10,00,000]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[12.0]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[10.0]]>
+              </value>
+            </param>
+            <param index="5">
+              <value>
+                <![CDATA[0.3]]>
+              </value>
+            </param>
+            <param index="6">
+              <value>
+                <![CDATA[01-Feb-2029]]>
+              </value>
+            </param>
+            <param index="7">
+              <value>
+                <![CDATA[5.0]]>
+              </value>
+            </param>
+            <param index="8">
+              <value>
+                <![CDATA[0.3]]>
+              </value>
+            </param>
+            <param index="9">
+              <value>
+                <![CDATA[0.1]]>
+              </value>
+            </param>
+            <param index="10">
+              <value>
+                <![CDATA[3000.0]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- validateHomeInsurancePerYearInputField -->
+        <test-method signature="validateHomeInsurancePerYearRupeesButton()[pri:25, instance:TestCases.LoanTenureCalculatorUICheck@7ae0a9ec]" started-at="2024-02-15T09:23:05 IST" name="validateHomeInsurancePerYearRupeesButton" finished-at="2024-02-15T09:23:09 IST" depends-on-methods="TestCases.HomeLoanEMI.homeLoanEmiCalculatorValidation, TestCases.HomeLoanEMI.calculatorsDropDownValidation" duration-ms="3208" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- validateHomeInsurancePerYearRupeesButton -->
+        <test-method signature="validateMaintenanceExpensesPerMonthInputField(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:26, instance:TestCases.LoanTenureCalculatorUICheck@7ae0a9ec]" started-at="2024-02-15T09:23:09 IST" name="validateMaintenanceExpensesPerMonthInputField" data-provider="homeLoanDetailsData" finished-at="2024-02-15T09:23:09 IST" depends-on-methods="TestCases.HomeLoanEMI.homeLoanEmiCalculatorValidation, TestCases.HomeLoanEMI.calculatorsDropDownValidation" duration-ms="194" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[2,00,00,000]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[25.0]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[10,00,000]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[12.0]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[10.0]]>
+              </value>
+            </param>
+            <param index="5">
+              <value>
+                <![CDATA[0.3]]>
+              </value>
+            </param>
+            <param index="6">
+              <value>
+                <![CDATA[01-Feb-2029]]>
+              </value>
+            </param>
+            <param index="7">
+              <value>
+                <![CDATA[5.0]]>
+              </value>
+            </param>
+            <param index="8">
+              <value>
+                <![CDATA[0.3]]>
+              </value>
+            </param>
+            <param index="9">
+              <value>
+                <![CDATA[0.1]]>
+              </value>
+            </param>
+            <param index="10">
+              <value>
+                <![CDATA[3000.0]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- validateMaintenanceExpensesPerMonthInputField -->
+        <test-method signature="printAllTheData()[pri:27, instance:TestCases.LoanTenureCalculatorUICheck@7ae0a9ec]" started-at="2024-02-15T09:23:10 IST" name="printAllTheData" finished-at="2024-02-15T09:23:20 IST" depends-on-methods="TestCases.HomeLoanEMI.homeLoanEmiCalculatorValidation, TestCases.HomeLoanEMI.calculatorsDropDownValidation" duration-ms="9965" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- printAllTheData -->
+        <test-method signature="calculatorsDropDownValidationFromHomeLoan()[pri:28, instance:TestCases.LoanTenureCalculatorUICheck@7ae0a9ec]" started-at="2024-02-15T09:23:20 IST" name="calculatorsDropDownValidationFromHomeLoan" finished-at="2024-02-15T09:23:20 IST" duration-ms="143" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- calculatorsDropDownValidationFromHomeLoan -->
+        <test-method signature="emiCalculatorPageValidation()[pri:29, instance:TestCases.LoanTenureCalculatorUICheck@7ae0a9ec]" started-at="2024-02-15T09:23:20 IST" name="emiCalculatorPageValidation" finished-at="2024-02-15T09:23:24 IST" depends-on-methods="TestCases.EMICalculator.calculatorsDropDownValidationFromHomeLoan" duration-ms="4197" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- emiCalculatorPageValidation -->
+        <test-method signature="validateEmiCalculatorLink()[pri:30, instance:TestCases.LoanTenureCalculatorUICheck@7ae0a9ec]" started-at="2024-02-15T09:23:24 IST" name="validateEmiCalculatorLink" finished-at="2024-02-15T09:23:24 IST" depends-on-methods="TestCases.EMICalculator.emiCalculatorPageValidation" duration-ms="41" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- validateEmiCalculatorLink -->
+        <test-method signature="verifyEmiCalculatorLoanAmountInputFieldPresence()[pri:31, instance:TestCases.LoanTenureCalculatorUICheck@7ae0a9ec]" started-at="2024-02-15T09:23:25 IST" name="verifyEmiCalculatorLoanAmountInputFieldPresence" finished-at="2024-02-15T09:23:25 IST" depends-on-methods="TestCases.CalculateEmiUICheck.validateEmiCalculatorLink" duration-ms="38" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyEmiCalculatorLoanAmountInputFieldPresence -->
+        <test-method signature="validateEmiCalculatorLoanAmountInputFieldByPassingValue(java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:32, instance:TestCases.LoanTenureCalculatorUICheck@7ae0a9ec]" started-at="2024-02-15T09:23:25 IST" name="validateEmiCalculatorLoanAmountInputFieldByPassingValue" data-provider="EMICalculatorData" finished-at="2024-02-15T09:23:25 IST" depends-on-methods="TestCases.CalculateEmiUICheck.validateEmiCalculatorLink" duration-ms="421" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[50,00,000]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[12.5]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[15.0]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[75000.0]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- validateEmiCalculatorLoanAmountInputFieldByPassingValue -->
+        <test-method signature="verifyEmiCalculatorInterestRateInputFieldPresence()[pri:33, instance:TestCases.LoanTenureCalculatorUICheck@7ae0a9ec]" started-at="2024-02-15T09:23:26 IST" name="verifyEmiCalculatorInterestRateInputFieldPresence" finished-at="2024-02-15T09:23:26 IST" depends-on-methods="TestCases.CalculateEmiUICheck.validateEmiCalculatorLink" duration-ms="40" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyEmiCalculatorInterestRateInputFieldPresence -->
+        <test-method signature="validateEmiCalculatorInterestRateInputFieldByPassingValue(java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:34, instance:TestCases.LoanTenureCalculatorUICheck@7ae0a9ec]" started-at="2024-02-15T09:23:26 IST" name="validateEmiCalculatorInterestRateInputFieldByPassingValue" data-provider="EMICalculatorData" finished-at="2024-02-15T09:23:26 IST" depends-on-methods="TestCases.CalculateEmiUICheck.validateEmiCalculatorLink" duration-ms="459" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[50,00,000]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[12.5]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[15.0]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[75000.0]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- validateEmiCalculatorInterestRateInputFieldByPassingValue -->
+        <test-method signature="verifyEmiCalculatorLoanTenureInputFieldPresence()[pri:35, instance:TestCases.LoanTenureCalculatorUICheck@7ae0a9ec]" started-at="2024-02-15T09:23:27 IST" name="verifyEmiCalculatorLoanTenureInputFieldPresence" finished-at="2024-02-15T09:23:27 IST" depends-on-methods="TestCases.CalculateEmiUICheck.validateEmiCalculatorLink" duration-ms="37" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyEmiCalculatorLoanTenureInputFieldPresence -->
+        <test-method signature="validateEmiCalculatorLoanTenureInputFieldByPassingValue(java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:36, instance:TestCases.LoanTenureCalculatorUICheck@7ae0a9ec]" started-at="2024-02-15T09:23:27 IST" name="validateEmiCalculatorLoanTenureInputFieldByPassingValue" data-provider="EMICalculatorData" finished-at="2024-02-15T09:23:27 IST" depends-on-methods="TestCases.CalculateEmiUICheck.validateEmiCalculatorLink" duration-ms="427" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[50,00,000]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[12.5]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[15.0]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[75000.0]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- validateEmiCalculatorLoanTenureInputFieldByPassingValue -->
+        <test-method signature="validateEmiCalculatorLoanTenureMonthButton()[pri:37, instance:TestCases.LoanTenureCalculatorUICheck@7ae0a9ec]" started-at="2024-02-15T09:23:28 IST" name="validateEmiCalculatorLoanTenureMonthButton" finished-at="2024-02-15T09:23:31 IST" depends-on-methods="TestCases.CalculateEmiUICheck.validateEmiCalculatorLink" duration-ms="3337" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- validateEmiCalculatorLoanTenureMonthButton -->
+        <test-method signature="verifyEmiCalculatorLoanChargesInputFieldPresence()[pri:38, instance:TestCases.LoanTenureCalculatorUICheck@7ae0a9ec]" started-at="2024-02-15T09:23:31 IST" name="verifyEmiCalculatorLoanChargesInputFieldPresence" finished-at="2024-02-15T09:23:31 IST" depends-on-methods="TestCases.CalculateEmiUICheck.validateEmiCalculatorLink" duration-ms="31" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyEmiCalculatorLoanChargesInputFieldPresence -->
+        <test-method signature="validateEmiCalculatorLoanChargesInputFieldByPassingValue(java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:39, instance:TestCases.LoanTenureCalculatorUICheck@7ae0a9ec]" started-at="2024-02-15T09:23:31 IST" name="validateEmiCalculatorLoanChargesInputFieldByPassingValue" data-provider="EMICalculatorData" finished-at="2024-02-15T09:23:32 IST" depends-on-methods="TestCases.CalculateEmiUICheck.validateEmiCalculatorLink" duration-ms="396" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[50,00,000]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[12.5]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[15.0]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[75000.0]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- validateEmiCalculatorLoanChargesInputFieldByPassingValue -->
+        <test-method signature="validateLoanAmountCalculatorLink()[pri:40, instance:TestCases.LoanTenureCalculatorUICheck@7ae0a9ec]" started-at="2024-02-15T09:23:32 IST" name="validateLoanAmountCalculatorLink" finished-at="2024-02-15T09:23:32 IST" duration-ms="211" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- validateLoanAmountCalculatorLink -->
+        <test-method signature="verifyEmiInputFieldPresence()[pri:41, instance:TestCases.LoanTenureCalculatorUICheck@7ae0a9ec]" started-at="2024-02-15T09:23:32 IST" name="verifyEmiInputFieldPresence" finished-at="2024-02-15T09:23:32 IST" depends-on-methods="TestCases.LoanAmountCalculatorUICheck.validateLoanAmountCalculatorLink" duration-ms="55" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyEmiInputFieldPresence -->
+        <test-method signature="verifyEmiInputFieldByPassingValue(java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:42, instance:TestCases.LoanTenureCalculatorUICheck@7ae0a9ec]" started-at="2024-02-15T09:23:33 IST" name="verifyEmiInputFieldByPassingValue" data-provider="loanAmountCalculatorData" finished-at="2024-02-15T09:23:33 IST" depends-on-methods="TestCases.LoanAmountCalculatorUICheck.validateLoanAmountCalculatorLink" duration-ms="413" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[25000.0]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[15.0]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[120.0]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[50000.0]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyEmiInputFieldByPassingValue -->
+        <test-method signature="verifyLoanAmountInterestRateInputFieldPresence()[pri:43, instance:TestCases.LoanTenureCalculatorUICheck@7ae0a9ec]" started-at="2024-02-15T09:23:33 IST" name="verifyLoanAmountInterestRateInputFieldPresence" finished-at="2024-02-15T09:23:33 IST" depends-on-methods="TestCases.LoanAmountCalculatorUICheck.validateLoanAmountCalculatorLink" duration-ms="41" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyLoanAmountInterestRateInputFieldPresence -->
+        <test-method signature="validateLoanAmountInterestRateInputFieldByPassingValue(java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:44, instance:TestCases.LoanTenureCalculatorUICheck@7ae0a9ec]" started-at="2024-02-15T09:23:34 IST" name="validateLoanAmountInterestRateInputFieldByPassingValue" data-provider="loanAmountCalculatorData" finished-at="2024-02-15T09:23:34 IST" depends-on-methods="TestCases.LoanAmountCalculatorUICheck.validateLoanAmountCalculatorLink" duration-ms="513" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[25000.0]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[15.0]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[120.0]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[50000.0]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- validateLoanAmountInterestRateInputFieldByPassingValue -->
+        <test-method signature="verifyLoanAmountTenureInputFieldPresence()[pri:45, instance:TestCases.LoanTenureCalculatorUICheck@7ae0a9ec]" started-at="2024-02-15T09:23:34 IST" name="verifyLoanAmountTenureInputFieldPresence" finished-at="2024-02-15T09:23:34 IST" depends-on-methods="TestCases.LoanAmountCalculatorUICheck.validateLoanAmountCalculatorLink" duration-ms="64" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyLoanAmountTenureInputFieldPresence -->
+        <test-method signature="validateLoanAmountTenureInputFieldByPassingValue(java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:46, instance:TestCases.LoanTenureCalculatorUICheck@7ae0a9ec]" started-at="2024-02-15T09:23:35 IST" name="validateLoanAmountTenureInputFieldByPassingValue" data-provider="loanAmountCalculatorData" finished-at="2024-02-15T09:23:35 IST" depends-on-methods="TestCases.LoanAmountCalculatorUICheck.validateLoanAmountCalculatorLink" duration-ms="441" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[25000.0]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[15.0]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[120.0]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[50000.0]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- validateLoanAmountTenureInputFieldByPassingValue -->
+        <test-method signature="validateLoanAmountLoanTenureMonthButton()[pri:47, instance:TestCases.LoanTenureCalculatorUICheck@7ae0a9ec]" started-at="2024-02-15T09:23:35 IST" name="validateLoanAmountLoanTenureMonthButton" finished-at="2024-02-15T09:23:39 IST" depends-on-methods="TestCases.LoanAmountCalculatorUICheck.validateLoanAmountCalculatorLink" duration-ms="3298" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- validateLoanAmountLoanTenureMonthButton -->
+        <test-method signature="verifyLoanAmountLoanChargesInputFieldPresence()[pri:48, instance:TestCases.LoanTenureCalculatorUICheck@7ae0a9ec]" started-at="2024-02-15T09:23:39 IST" name="verifyLoanAmountLoanChargesInputFieldPresence" finished-at="2024-02-15T09:23:39 IST" depends-on-methods="TestCases.LoanAmountCalculatorUICheck.validateLoanAmountCalculatorLink" duration-ms="33" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyLoanAmountLoanChargesInputFieldPresence -->
+        <test-method signature="validateLoanAmountLoanChargesInputFieldByPassingValue(java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:49, instance:TestCases.LoanTenureCalculatorUICheck@7ae0a9ec]" started-at="2024-02-15T09:23:39 IST" name="validateLoanAmountLoanChargesInputFieldByPassingValue" data-provider="loanAmountCalculatorData" finished-at="2024-02-15T09:23:39 IST" depends-on-methods="TestCases.LoanAmountCalculatorUICheck.validateLoanAmountCalculatorLink" duration-ms="385" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[25000.0]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[15.0]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[120.0]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[50000.0]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- validateLoanAmountLoanChargesInputFieldByPassingValue -->
+        <test-method signature="validateLoanTenureCalculatorLink()[pri:50, instance:TestCases.LoanTenureCalculatorUICheck@7ae0a9ec]" started-at="2024-02-15T09:23:40 IST" name="validateLoanTenureCalculatorLink" finished-at="2024-02-15T09:23:40 IST" duration-ms="199" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- validateLoanTenureCalculatorLink -->
+        <test-method signature="verifyLoanTenureLoanAmountInputFieldPresence()[pri:51, instance:TestCases.LoanTenureCalculatorUICheck@7ae0a9ec]" started-at="2024-02-15T09:23:40 IST" name="verifyLoanTenureLoanAmountInputFieldPresence" finished-at="2024-02-15T09:23:40 IST" depends-on-methods="TestCases.LoanTenureCalculatorUICheck.validateLoanTenureCalculatorLink" duration-ms="47" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyLoanTenureLoanAmountInputFieldPresence -->
+        <test-method signature="validateLoanTenureLoanAmountInputFieldByPassingValue(java.lang.String,java.lang.String,java.lang.String)[pri:52, instance:TestCases.LoanTenureCalculatorUICheck@7ae0a9ec]" started-at="2024-02-15T09:23:40 IST" name="validateLoanTenureLoanAmountInputFieldByPassingValue" data-provider="loanTenureCalculatorData" finished-at="2024-02-15T09:23:41 IST" depends-on-methods="TestCases.LoanTenureCalculatorUICheck.validateLoanTenureCalculatorLink" duration-ms="482" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[75,00,000]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[10.0]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[50000.0]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- validateLoanTenureLoanAmountInputFieldByPassingValue -->
+        <test-method signature="verifyLoanTenureEmiInputFieldPresence()[pri:53, instance:TestCases.LoanTenureCalculatorUICheck@7ae0a9ec]" started-at="2024-02-15T09:23:41 IST" name="verifyLoanTenureEmiInputFieldPresence" finished-at="2024-02-15T09:23:41 IST" depends-on-methods="TestCases.LoanTenureCalculatorUICheck.validateLoanTenureCalculatorLink" duration-ms="30" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyLoanTenureEmiInputFieldPresence -->
+        <test-method signature="verifyLoanTenureInterestRateInputFieldPresence()[pri:54, instance:TestCases.LoanTenureCalculatorUICheck@7ae0a9ec]" started-at="2024-02-15T09:23:41 IST" name="verifyLoanTenureInterestRateInputFieldPresence" finished-at="2024-02-15T09:23:41 IST" depends-on-methods="TestCases.LoanTenureCalculatorUICheck.validateLoanTenureCalculatorLink" duration-ms="36" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyLoanTenureInterestRateInputFieldPresence -->
+        <test-method signature="validateLoanTenureInterestRateInputFieldByPassingValue(java.lang.String,java.lang.String,java.lang.String)[pri:55, instance:TestCases.LoanTenureCalculatorUICheck@7ae0a9ec]" started-at="2024-02-15T09:23:42 IST" name="validateLoanTenureInterestRateInputFieldByPassingValue" data-provider="loanTenureCalculatorData" finished-at="2024-02-15T09:23:42 IST" depends-on-methods="TestCases.LoanTenureCalculatorUICheck.validateLoanTenureCalculatorLink" duration-ms="409" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[75,00,000]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[10.0]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[50000.0]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- validateLoanTenureInterestRateInputFieldByPassingValue -->
+        <test-method signature="verifyLoanTenuteLoanChargesInputFieldPresence()[pri:56, instance:TestCases.LoanTenureCalculatorUICheck@7ae0a9ec]" started-at="2024-02-15T09:23:42 IST" name="verifyLoanTenuteLoanChargesInputFieldPresence" finished-at="2024-02-15T09:23:42 IST" depends-on-methods="TestCases.LoanTenureCalculatorUICheck.validateLoanTenureCalculatorLink" duration-ms="36" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyLoanTenuteLoanChargesInputFieldPresence -->
+        <test-method signature="validateLoanTenureLoanChargesInputFieldByValue(java.lang.String,java.lang.String,java.lang.String)[pri:57, instance:TestCases.LoanTenureCalculatorUICheck@7ae0a9ec]" started-at="2024-02-15T09:23:43 IST" name="validateLoanTenureLoanChargesInputFieldByValue" data-provider="loanTenureCalculatorData" finished-at="2024-02-15T09:23:43 IST" depends-on-methods="TestCases.LoanTenureCalculatorUICheck.validateLoanTenureCalculatorLink" duration-ms="425" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[75,00,000]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[10.0]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[50000.0]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- validateLoanTenureLoanChargesInputFieldByValue -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:TestCases.LoanTenureCalculatorUICheck@7ae0a9ec]" started-at="2024-02-15T09:23:43 IST" name="tearDown" finished-at="2024-02-15T09:23:44 IST" duration-ms="1110" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- TestCases.LoanTenureCalculatorUICheck -->
+    </test> <!-- Test -->
+  </suite> <!-- Suite -->
+</testng-results>
